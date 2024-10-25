@@ -1,0 +1,27 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "test": "npx cucumber-js",
+    "test1:debug": "PWDEBUG=1 npx cucumber-js --require path/to/your/step_definitions "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.8.0",
+    "cucumber": "^6.0.7",
+    "eslint": "^9.13.0",
+    "playwright": "^1.48.1",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
