@@ -26,7 +26,7 @@ Implement Page Object Model (POM): Organize your code using the POM design patte
 
 Add Cleanup Steps: Use hooks to perform cleanup actions after tests to reset the state or clear data.
 
-Integrate Reporting: Optionally, integrate reporting tools like Allure for detailed test reports, including execution status, error messages, and test summaries.
+
 
 **Running the Tests**
 Update package.json: Add scripts to run and debug your tests with CucumberJS.
