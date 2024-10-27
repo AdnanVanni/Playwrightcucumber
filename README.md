@@ -13,5 +13,12 @@ npm (>=6.x)
 **Running the Tests**
 Update package.json: Add scripts to run and debug your tests with CucumberJS.
 
+intsall dependencies: npm install
+
+install pw browsers :npx playwright install
+
+
 Execute Tests: Use npm scripts to run your tests 
+npm run test 
+for this project 
 
