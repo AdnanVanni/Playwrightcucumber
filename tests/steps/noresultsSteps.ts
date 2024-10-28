@@ -28,5 +28,5 @@ When('user searchs for NonExistentTerm', async function () {
 
 Then('user should see a "No results found" message', async function () {
   const noResultsElement = await homepagenew.noResultsMessageIsVisible();
-  // Add assertion to verify the element's text
+
 });
