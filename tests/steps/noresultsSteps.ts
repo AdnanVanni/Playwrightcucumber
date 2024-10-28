@@ -11,7 +11,7 @@ setDefaultTimeout(500 * 1000);
 Given('the app is loaded', async function () {
   browser = await chromium.launch({ headless: false });
   page = await browser.newPage();
-  homepagenew = new SearchPage(page); // Initialize with the created page
+  homepagenew = new SearchPage(page); 
   await page.route('**/*', (route) => {
     if (route.request().resourceType() === 'image') {
       route.abort();
